@@ -1,0 +1,10 @@
+[package]
+name = "rash"
+version = "0.1.0"
+authors = ["Adam Niederer <Adam.Niederer@gmail.com>"]
+
+[dependencies]
+glob = "*"
+
+[dependencies.readline]
+git = "https://github.com/shaleh/rust-readline"
